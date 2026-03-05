@@ -26,37 +26,44 @@ The system converts raw squash match footage into structured positional data tha
 ---
 
 ## Project Structure
-squash-ai-analysis
+
+```text
+squash-ai-analysis/
 │
-├── notebooks
-│ ├── baseline_court_keypoints.ipynb
-│ ├── baseline_court_positions.ipynb
-│ └── positions_superposition.ipynb
+├── notebooks/
+│   ├── baseline_court_keypoints.ipynb
+│   ├── baseline_court_positions.ipynb
+│   └── positions_superposition.ipynb
 │
-├── docs
-│ └── Core Computer Vision Engine.pdf
+├── docs/
+│   └── Core Computer Vision Engine.pdf
 │
-├── models
-├── data
+├── models/
+├── data/
+│
 ├── requirements.txt
 └── README.md
+```
 
 
 
 ---
-
 ## Current Pipeline
+
+```text
 Video Input
-↓
+   ↓
 Frame Extraction
-↓
+   ↓
 Court Keypoint Detection
-↓
+   ↓
 Player Position Estimation
-↓
+   ↓
 Court Coordinate Mapping
-↓
+   ↓
 Movement Visualization
+```
+
 
 
 
